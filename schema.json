@@ -168,7 +168,7 @@
       "examples": [
         {
           "id": "Example OTAA with payload encoding",
-          "vendorProfileID": 1,
+          "LoRaAllianceVendorID": 1,
           "supportsClassB": false,
           "supportsClassC": false,
           "macVersion": "1.0.2",
@@ -207,7 +207,7 @@
         },
         {
           "id": "Example ABP",
-          "vendorProfileID": 2,
+          "LoRaAllianceVendorID": 2,
           "supportsClassB": false,
           "supportsClassC": false,
           "macVersion": "1.0.4",
@@ -349,7 +349,7 @@
       },
       "properties": {
         "id": { "$ref": "#/definitions/identifier" },
-        "vendorProfileID": {
+        "LoRaAllianceVendorID": {
           "type": "integer",
           "description": "VendorProfileID managed by the vendor, as defined in TR005",
           "minimum": 0,
@@ -785,6 +785,7 @@
               "link",
               "sound",
               "co2",
+              "tvoc",
               "proximity",
               "water",
               "ph",
