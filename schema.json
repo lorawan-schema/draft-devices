@@ -907,6 +907,7 @@
               "time",
               "tvoc",
               "uv",
+              "ultrasonic",
               "vapor pressure",
               "velocity",
               "vibration",
